@@ -1,0 +1,7 @@
+babyAnimals is a curried function; it is designed for the first argument
+to be ‘prefilled’ before the function itself is fully executed.
+With this pattern, ‘koala’ can be bound to babyAnimals, and my love for animals other 
+than elephants can easily be expressed.
+Currying can be integrated with callbacks to create higher-order ‘factory’ functions. 
+This pattern is extremely useful in event handling, and can also replace the callback
+pattern that is utilized in node.js (Brun Jouhie has an excellent blog post 

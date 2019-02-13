@@ -11,6 +11,6 @@ function babySteps() {
   for (let i = 2; i < process.argv.length; i++) {
     sum += Number(process.argv[i]);
   }
-  console.log(sum);
-
+  return sum;
 }
+console.log(babySteps(sum));
