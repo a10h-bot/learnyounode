@@ -11,5 +11,8 @@ var str = fs.readFileSync(path, 'utf8')
 const lines = str.split('\n');
 console.log(lines.length - 1);
 
+//methood 2
 
-
+var str = fs.readFileSync(process.argv[2]).toString();
+const lines = str.split('\n');
+console.log(lines.length - 1);
